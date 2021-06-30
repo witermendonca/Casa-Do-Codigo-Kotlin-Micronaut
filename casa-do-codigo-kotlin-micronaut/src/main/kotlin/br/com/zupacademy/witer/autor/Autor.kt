@@ -8,7 +8,7 @@ import javax.persistence.*
 class Autor(
     val nome: String,
     val email: String,
-    val descricao: String
+    var descricao: String
 ) {
 
     @Id

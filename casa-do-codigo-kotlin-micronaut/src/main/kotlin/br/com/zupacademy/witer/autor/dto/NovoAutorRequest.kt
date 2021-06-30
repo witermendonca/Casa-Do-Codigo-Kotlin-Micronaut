@@ -1,5 +1,6 @@
-package br.com.zupacademy.witer.autor
+package br.com.zupacademy.witer.autor.dto
 
+import br.com.zupacademy.witer.autor.Autor
 import io.micronaut.core.annotation.Introspected
 import javax.validation.constraints.Email
 import javax.validation.constraints.NotBlank
