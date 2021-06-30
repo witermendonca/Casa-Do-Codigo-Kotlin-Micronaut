@@ -1,0 +1,18 @@
+micronaut:
+  application:
+    name: casaDoCodigoKotlinMicronaut
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/db_casa_do_codigo_kt?createDatabaseIfNotExist=true&serverTimezone=America/Sao_Paulo
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_ROOT_PASSWORD:root}
+    dialect: MYSQL
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
+        format_sql: true
