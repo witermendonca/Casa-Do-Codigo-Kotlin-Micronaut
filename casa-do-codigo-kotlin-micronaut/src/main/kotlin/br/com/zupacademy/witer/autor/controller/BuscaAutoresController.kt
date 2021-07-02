@@ -56,4 +56,5 @@ class BuscaAutoresController(val autorRepository: AutorRepository) {
 
         return HttpResponse.ok(DetalhesAutorResponse(autor.get()))
     }
+
 }
